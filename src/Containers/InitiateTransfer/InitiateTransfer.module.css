@@ -1,0 +1,82 @@
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.innerContainer {
+  width: 40%;
+}
+
+.header {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  color: var(--darkblue);
+}
+
+.errorSection {
+  margin: 2rem 0 1rem 0;
+  animation: appear 0.3s ease-in-out;
+}
+
+.dropdownSection {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.warning {
+  /* border: 1px solid black; */
+  display: block;
+  text-align: left;
+  margin: 0em 0.3em;
+  position: relative;
+  bottom: 8px;
+  font-size: 0.8rem;
+  color: red;
+  animation: appear 0.3s ease-in-out;
+}
+
+.resolveText {
+  font-size: 0.8rem;
+  cursor: pointer;
+  color: var(--green);
+  font-weight: 500;
+  animation: appear 0.3s ease-in-out;
+}
+
+.resolvedBankDetails {
+  font-size: 0.8rem;
+  cursor: pointer;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color: var(--darkblue);
+  animation: appear 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.anountAndDescription {
+  animation: appear 0.3s ease-in-out;
+}
+
+.buttonSection {
+  animation: appear 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 767px) {
+  .innerContainer {
+    width: 100%;
+  }
+}
