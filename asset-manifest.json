@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Paystack-api-implememtation-task/static/css/main.da9eb2cf.css",
-    "main.js": "/Paystack-api-implememtation-task/static/js/main.d1657399.js",
+    "main.js": "/Paystack-api-implememtation-task/static/js/main.86b9371e.js",
     "static/js/787.ce6440ba.chunk.js": "/Paystack-api-implememtation-task/static/js/787.ce6440ba.chunk.js",
     "index.html": "/Paystack-api-implememtation-task/index.html",
     "main.da9eb2cf.css.map": "/Paystack-api-implememtation-task/static/css/main.da9eb2cf.css.map",
-    "main.d1657399.js.map": "/Paystack-api-implememtation-task/static/js/main.d1657399.js.map",
+    "main.86b9371e.js.map": "/Paystack-api-implememtation-task/static/js/main.86b9371e.js.map",
     "787.ce6440ba.chunk.js.map": "/Paystack-api-implememtation-task/static/js/787.ce6440ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.da9eb2cf.css",
-    "static/js/main.d1657399.js"
+    "static/js/main.86b9371e.js"
   ]
 }
